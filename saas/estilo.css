@@ -1,0 +1,33 @@
+/*Por temas de la descarga en PDF, este archivo de estilos solo aplica para leer_productos.php*/
+
+body {
+    font-size: 12px;
+}
+.container {
+    padding-top: 20px;
+}
+canvas {
+    display: block;
+}
+
+#tabla_productos_wrapper {
+    margin-bottom: 0;
+}
+#tabla_productos_length {
+    float: right;
+    margin-bottom: 10px;
+}
+#tabla_productos_filter {
+    float: left;
+    margin-bottom: 10px;
+}
+#tabla_productos_paginate {
+    float: right;
+    margin-top: 0;
+}
+#tabla_productos_info {
+    margin-bottom: 10px;
+}
+#tabla_productos {
+    width: 100%;
+}
