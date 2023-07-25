@@ -13,10 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tipo_farmaceutico = $_POST["tipo_farmaceutico"];
     $personal_ingreso = $_POST["personal_ingreso"];
 
-/*la imagen del bote de pastillas esta como imagen 
-por defecto para que el usuario pueda colocar en caso 
-de no tener una mejor para la ocasion. */
-
     if ($_FILES["imagen_producto"]["error"] === 0) {
         $imagen_temporal = $_FILES["imagen_producto"]["tmp_name"];
         $imagen_nombre = $_FILES["imagen_producto"]["name"];
